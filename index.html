@@ -1,9 +1,356 @@
 <!doctype html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="icon" href="/assets/LogoFaisal.png" type="image" />
+    <title>Faisal Hadi Saik | Portfolio</title>
+    <meta
+      name="description"
+      content="Faisal Hadi Saik's personal portfolio website, showcasing web development projects, skills in HTML, CSS, JavaScript, and more. Informatics student passionate about creating responsive and user-friendly web experiences."
+    />
+    <meta
+      name="keywords"
+      content="Faisal Hadi Saik, portfolio, web developer, informatics student, HTML, CSS, JavaScript, frontend, backend, projects, resume"
+    />
+    <meta name="author" content="Faisal Hadi Saik" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourportfolio.com/" />
+    <meta
+      property="og:title"
+      content="Faisal Hadi Saik | Web Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Faisal Hadi Saik's personal portfolio website, showcasing web development projects, skills in HTML, CSS, JavaScript, and more."
+    />
+    <meta
+      property="og:image"
+      content="https://yourportfolio.com/assets/IMG-20240115-WA0003.jpg"
+    />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://yourportfolio.com/" />
+    <meta
+      property="twitter:title"
+      content="Faisal Hadi Saik | Web Developer Portfolio"
+    />
+    <meta
+      property="twitter:description"
+      content="Faisal Hadi Saik's personal portfolio website, showcasing web development projects, skills in HTML, CSS, JavaScript, and more."
+    />
+    <meta
+      property="twitter:image"
+      content="https://yourportfolio.com/assets/IMG-20240115-WA0003.jpg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <a href="#hero" class="site-brand">
+          <img src="assets/LogoFaisal.png" alt="Logo Faisal" class="logo" />
+          <span class="site-title">Faisal Hadi Saik</span>
+        </a>
+        <button
+          class="hamburger"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+        >
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>Halo, saya Faisal Hadi Saik</h1>
+            <h2>Mahasiswa Informatika</h2>
+            <div class="accent-line"></div>
+            <p>Curious mind. Passionate builder.</p>
+            <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section animate-on-scroll">
+        <div class="about-wrapper">
+          <div class="about-image">
+            <img
+              src="assets/IMG-20240115-WA0003.jpg"
+              alt="Faisal Hadi Saik - Profile Picture"
+              class="profile-pic-about"
+              width="250"
+              height="250"
+            />
+          </div>
+          <div class="about-info">
+            <h2>Tentang Saya</h2>
+            <div class="accent-underline"></div>
+            <div class="about-text-card">
+              <p>
+                Saya adalah mahasiswa Teknik Informatika yang memiliki fokus
+                kuat pada pengembangan web dan teknologi informasi modern. Saya
+                terbiasa membangun aplikasi web responsif dengan struktur kode
+                yang bersih dan terorganisir menggunakan HTML, CSS, dan
+                JavaScript. Saya juga memahami dasar keamanan aplikasi web,
+                termasuk pencegahan SQL Injection, XSS, serta penerapan validasi
+                dan sanitasi input untuk memastikan sistem yang saya kembangkan
+                aman dan andal.
+              </p>
+              <p>
+                Selain pengembangan web, saya memiliki minat besar dalam
+                keamanan informasi dan jaringan komputer sebagai bagian dari
+                penguatan kompetensi di bidang IT. Saya telah menyelesaikan
+                sertifikasi KKNI Level II Teknik Komputer dan Jaringan serta
+                terlibat dalam proyek perancangan UI/UX aplikasi kasir sebagai
+                bagian dari pengembangan kemampuan analitis dan problem-solving
+                saya. Saya terus mengembangkan keterampilan teknis dan siap
+                berkontribusi dalam lingkungan profesional yang menantang.
+              </p>
+              <a href="assets/ResumeFaisal.pdf" download class="btn btn-primary"
+                >Download Resume</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section animate-on-scroll">
+        <h2>Kemampuan IT</h2>
+        <div class="accent-underline"></div>
+        <div class="skills-grid">
+          <div class="skills-category">
+            <h3>Frontend</h3>
+            <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
+            <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+            <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+            <div class="skill-item">
+              <i class="fab fa-react"></i> React (Basic)
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3>Backend</h3>
+            <div class="skill-item">
+              <i class="fab fa-node-js"></i> Node.js (Basic)
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-database"></i> SQL (Basic)
+            </div>
+            <div class="skill-item"><i class="fab fa-php"></i> PHP (Basic)</div>
+          </div>
+          <div class="skills-category">
+            <h3>Tools</h3>
+            <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+            <div class="skill-item"><i class="fab fa-github"></i> GitHub</div>
+            <div class="skill-item">
+              <i class="fab fa-figma"></i> Figma (Basic)
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3>Languages</h3>
+            <div class="skill-item">
+              <i class="fas fa-laptop-code"></i> Python (Basic)
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-laptop-code"></i> C++ (Basic)
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-laptop-code"></i> Java (Basic)
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section animate-on-scroll">
+        <h2>Projek dan Pengalaman</h2>
+        <div class="accent-underline"></div>
+        <div class="projects-grid">
+          <article class="project-item">
+            <img
+              src="assets/WebsiteProfil.png"
+              alt="Website Portofolio Profil"
+              class="project-image"
+              width="300"
+              height="200"
+              loading="lazy"
+            />
+            <h3>Website Profil Portofolio</h3>
+            <p>
+              Portofolio sederhana yang menampilkan informasi pengalaman proyek,
+              keteramplan, dan kontak pribadi sebagai web developer student.
+              Terbuka untuk Kerjasama dan Kolaborasi dalam menngembangkan
+              Teknologi.
+            </p>
+            <p class="project-tech">
+              Teknologi: HTML5, CSS3, JavaScript (Programmmer Language, Web
+              Engineer, Social Engineering)
+            </p>
+            <div class="project-links">
+              <a href="#" class="btn btn-secondary">Live Demo</a>
+              <a
+                href="https://github.com/faisalhadisaik/Tugas1-WebProg-Client-Side-Scripting-FaisalHadiSaik-1"
+                class="btn btn-secondary"
+                target="_blank"
+                >GitHub Repo</a
+              >
+            </div>
+          </article>
+          <article class="project-item">
+            <img
+              src="assets/Concurent.png"
+              alt="Concurent Project"
+              class="project-image"
+              width="300"
+              height="200"
+              loading="lazy"
+            />
+            <h3>
+              Website Interaktif Simulasi Manjemen Proses Sistem
+              Operasi-Konkurensi
+            </h3>
+            <p>
+              Website interaktif yang dapat mensimulasikan konsep manajemen
+              proses dalam sistem operasi dengan fokus pada konkurensi. Pengguna
+              dapat memahami bagaimana proses berjalan secara bersamaan dan
+              bagaimana sistem mengelola sumber daya.
+            </p>
+            <p class="project-tech">
+              Teknologi : HTML5, CSS3, JavaScript, React (Event Listeners,
+              Client-Side-Scripting, Manajemen sumber daya, Manjemen Sistem
+              Operasi)
+            </p>
+            <div class="project-links">
+              <a
+                href="https://concurent-process.vercel.app"
+                class="btn btn-secondary"
+                >Live Demo</a
+              >
+              <a
+                href="https://github.com/FaisalHadiVoidwalker/Concurent-Process"
+                class="btn btn-secondary"
+                target="_blank"
+                >GitHub Repo</a
+              >
+            </div>
+          </article>
+          <article class="project-item">
+            <img
+              src="assets/My-Taxpall.png"
+              alt="My-Taxpall Project"
+              class="project-image"
+              width="300"
+              height="200"
+              loading="lazy"
+            />
+            <h3>
+              Website Implementasi Penghitungan Pajak Penghasilan Pegawai (PPH)
+            </h3>
+            <p>
+              Website sederhana dalam mengimplemntasikan perhitungan Pajak
+              Penghasilan (PPH) untuk pegawai, dalam penerapan secara langsung
+              aritmatika dan Fungsi Linear bertingkat.
+            </p>
+            <p class="project-tech">
+              Teknologi: HTML5, CSS3, JavaScript (Logika Aritmatika, UI/UX,
+              Client-Side-Scripting)
+            </p>
+            <div class="project-links">
+              <a
+                href="https://my-taxpall-friends.vercel.app"
+                class="btn btn-secondary"
+                >Live Demo</a
+              >
+              <a
+                href="https://github.com/FaisalHadiVoidwalker/my-taxpall-friends"
+                class="btn btn-secondary"
+                target="_blank"
+                >GitHub Repo</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section animate-on-scroll">
+        <h2>Kontak Saya</h2>
+        <div class="accent-underline"></div>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h3>Hubungi Saya!</h3>
+            <p>
+              Saya menerima berbagai peluang kolaborasi dan kerjasma. Saya dapat
+              dihubungi melalui email yang tercantum atau formulir yang
+              tersedia, saya akan sangat bersmangat akan hal itu.
+            </p>
+
+            <div class="contact-details">
+              <p><i class="fas fa-envelope"></i> faisalsaik216@gmail.com</p>
+              <p></p>
+              <p><strong>Location:</strong> Tasikmalaya, Jawa Barat</p>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form action="/contact" method="POST">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Nama"
+                  aria-label="Your Name"
+                />
+                <span class="error-message" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Alamat Email"
+                  aria-label="Your Email"
+                />
+                <span class="error-message" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  placeholder="Pesan yang disampaikan"
+                  aria-label="Your Message"
+                ></textarea>
+                <span class="error-message" aria-live="polite"></span>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Faisal Hadi Saik. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
